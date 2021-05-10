@@ -1,0 +1,78 @@
+h1 {
+    color: rgb(15, 19, 223);
+    font-family: fantasy;
+    text-align: center;
+    margin-left:500;
+}
+h2 {
+    background-color: rgb(0, 255, 255);
+    font-family: fantasy;
+}
+p {
+    background-color: rgb(0, 255, 255);
+    font-family: fantasy;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: #1fcc36;
+    display: flex;
+    justify-content: space-between;
+    font-family: fantasy;
+    
+
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    font-family: fantasy;
+    text-decoration: firebrick
+}
+
+.grid{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: coral;
+    border-radius:100px;
+    font-family: fantasy;
+    
+}
+.grid img{
+    border-radius:200px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: blueviolet;
+    font-family: fantasy;
+}
+
+p,h2{
+    text-align: center;
+    font-family: fantasy;
+    
+}
+.item {
+    position:relative;
+}
+.item p {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.item:hover p {
+opacity:1;
+}
+.item:hover img {
+opacity:0.33;
+}
